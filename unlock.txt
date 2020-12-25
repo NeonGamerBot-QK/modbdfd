@@ -1,0 +1,12 @@
+trigger: {{prefix}}unlock
+code:
+$nomention
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$color[$getServerVar[Color]]
+$title[Channel Unlocked]
+$description[<#$channelID> Has Been Unlocked
+Reason: $noMentionMessage
+This channel has now been Unlocked if you are muted you still will be!.]
+$footer[$username#$discriminator[$authorID]]
+$deletecommand
+$onlyAdmin[Admin Only]

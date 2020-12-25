@@ -1,0 +1,7 @@
+triggger : {{prefix}}kick
+code:
+$nomention $kickMention
+Kick has been made! 
+$channelSendMessage[$getServerVar[logging]; $username has kicked $message]
+$onlyPerms[kick; You cant do this! you need `Kick_members` perms]
+$channelSendMessage[$getServerVar[logging]; $username kicked $message]

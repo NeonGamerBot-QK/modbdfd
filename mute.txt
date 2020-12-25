@@ -1,0 +1,6 @@
+trigger:{{prefix}}mute 
+code:
+$onlyAdmin[$username you arent a mod!?!??]
+$mute[muted]
+
+muted role must be called `muted`

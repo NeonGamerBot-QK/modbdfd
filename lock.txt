@@ -1,0 +1,12 @@
+trigger: {{prefix}}lock
+code:
+$nomention
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$color[$getServerVar[Color]]
+$title[Channel Locked]
+$description[<#$channelID> Has Been Locked
+Reason: $noMentionMessage
+Your not muted do not dm a mod telling them to unmute you. This channel is just locked.]
+$footer[$username#$discriminator[$authorID]]
+$deletecommand
+$onlyAdmin[only Admin can use this command]

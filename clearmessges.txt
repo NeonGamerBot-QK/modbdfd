@@ -1,0 +1,7 @@
+trigger {{prefix}}clear
+code:
+$nomention
+$clear[$message]
+clearing messages deleting in 10 seconds....
+$deleteIn[10s]
+add `channelSendMessage[$getServerVar[logging]; $username has cleared $mesaages messages] for logging!

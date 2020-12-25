@@ -1,0 +1,6 @@
+trigger:{{prefix}}resetcolor
+code:
+Color has been reset
+$setServerVar[Color;#FF0000;]
+you can do the same to reset logging just do it like below!
+$setServerVar[logging;<deafultchannelid>]

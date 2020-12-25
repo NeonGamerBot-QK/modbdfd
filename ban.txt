@@ -1,0 +1,7 @@
+$nomention
+$dm[]
+$deletecommand
+$title[ Banned ]
+$description[You Where banned from $getServerInvite please do this from to appeal $getServerVar[Appealform]]
+$ban
+$color[$getServerVar[Color]]

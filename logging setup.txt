@@ -1,0 +1,15 @@
+triger:{{prefix}}changelog
+code:
+$nomention
+$title[logging]
+$description[
+The current log is now 
+ <#$getServerVar[logging]> all command and level logs will go in this channel `+resetlogs` the default logs are <#773195549222109204> that will be when reset if logs are mess up do the command that is up above this text this will be complicated dm NeonGamerBot_QK#1001 for help]
+$setServerVar[logging;$message]
+$color[$getServerVar[Color]]
+$channelSendMessage[$getServerVar[logging]; The logs have now been changed to this channel to rest them do `+logsreset`  ` logs change to this channel`]
+person must put channel id 
+new varible needed called
+logging
+value : <defultloggingchannelid>
+rest command comming!

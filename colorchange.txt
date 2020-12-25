@@ -1,0 +1,16 @@
+trigger:{{prefix}}defaultcolor
+code:
+$nomention
+$title[Color]
+$description[
+The current color is now 
+ $getServerVar[Color] all embeds shall be that color to reset embed color say `+resetembed`  and the color will be `#FF0000` which is red! **if the color is not a color hex you must kick bot then invite back for bot to function**
+$randomText[ When the you use the command  `+ping` it also shows how long it has been up!; There are eval commands just for the owner; the nsfw stuff is really good ;   you can have the bot log stuff ; you can get the bots invite  by doing `+invite` and the bot will dm you the invite;  You can set it to have a certin color!; the way i do this through BDFD; Need help come and join  our support server! ||server invite|| ; Are you gay? do `+gaymeter` to find out ; there is a way to do apis but its hard; $username sucks ; Congrats you have got some money im going to give you the money!||jk|| ; ||You clicked so this is on every help command to get cool bot code it will randomly come here ; ]]
+$color[$getServerVar[Color]]
+$setServerVar[Color;$message]
+
+
+varible Name 
+Color
+value : FF0000 
+^^^^^^^^^^^^ is red 
